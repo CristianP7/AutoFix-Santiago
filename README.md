@@ -12,7 +12,7 @@ Landing page responsive para un taller mecánico ficticio ubicado en Santiago de
 
 ### Vista móvil
 
-![AutoFix Santiago - Vista móvil](assets/screenshots/screencapture-autofix-santiago)
+![AutoFix Santiago - Vista móvil](assets/screenshots/screencapture-autofix-santiago-mobile.png)
 
 ## 🛠️ Tecnologías utilizadas
 
