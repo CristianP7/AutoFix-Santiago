@@ -1,37 +1,73 @@
-# AutoFix Santiago — landing page
+# AutoFix Santiago 🚗
 
-Prototipo ficticio de una web para un taller mecánico en Santiago de Chile. Está hecho con HTML semántico, CSS y JavaScript nativo; no usa frameworks ni dependencias.
+Landing page responsive para un taller mecánico ficticio ubicado en Santiago de Chile. Este proyecto fue desarrollado como parte de mi aprendizaje de desarrollo frontend, con foco en diseño UI/UX, estructura semántica y adaptación a distintos dispositivos.
 
-## Cómo abrirlo en VS Code
+🔗 **[Ver sitio web publicado](https://autofix-santiago.netlify.app/)**
 
-1. Descomprime `autofix-santiago.zip`.
-2. Abre VS Code y selecciona **File → Open Folder** (Archivo → Abrir carpeta).
-3. Elige la carpeta `autofix-santiago`.
-4. Abre `index.html` en el navegador. También puedes usar la extensión Live Server si ya la tienes instalada; no es necesaria para el proyecto.
+## 📸 Capturas de pantalla
 
-## Archivos
+### Vista de escritorio
 
-- `index.html`: contenido y estructura de todas las secciones.
-- `styles.css`: colores, tipografía, tarjetas, layout y reglas responsive.
-- `script.js`: menú móvil, fecha mínima del formulario y generación del mensaje para WhatsApp.
-- `assets/logo-autofix.jpg`: logo proporcionado, incorporado al proyecto.
+ ![AutoFix Santiago - Vista de escritorio](assets/screenshots/screencapture-autofix-santiago-desktop.png) 
 
-## Personalizaciones importantes antes de publicar
+### Vista móvil
 
-1. **WhatsApp:** abre `script.js` y cambia `WHATSAPP_NUMBER = "56900000000"` por el número real en formato internacional, solo dígitos (Chile: `56` + número, sin `+`, espacios ni guiones).
-2. **Datos del taller:** cambia dirección, teléfono y horarios ficticios en `index.html`.
-3. **Servicios:** edita los títulos y descripciones dentro de `#servicios`.
-4. **Fotos:** las fotos de ambientación se cargan desde Unsplash, así que requieren conexión a internet. Puedes reemplazar sus URLs en `styles.css` y en `index.html` por fotos propias.
-5. **Logo:** reemplaza `assets/logo-autofix.jpg` por tu archivo final y actualiza la ruta/extensión en el HTML si hace falta.
+![AutoFix Santiago - Vista móvil](assets/screenshots/screencapture-autofix-santiago)
 
-## Comportamiento del formulario
+## 🛠️ Tecnologías utilizadas
 
-El formulario valida los campos obligatorios y abre WhatsApp con un mensaje prellenado. No envía mensajes automáticamente y no almacena los datos. El número actual es ficticio: hay que reemplazarlo para usarlo de verdad. La página no confirma ni reserva una hora; solo permite solicitarla.
+- **HTML5:** estructura semántica del sitio.
+- **CSS3:** estilos, diseño responsive y adaptación a dispositivos móviles.
+- **JavaScript:** interactividad y comportamiento del formulario de contacto.
+- **Git y GitHub:** control de versiones y alojamiento del código.
+- **Netlify:** despliegue y publicación del sitio web.
 
-## Accesibilidad y responsive
+## ✨ Funcionalidades
 
-- Navegación por anclas y etiquetas semánticas.
-- Etiquetas explícitas para los campos, foco visible y mensajes de estado.
-- Menú móvil con `aria-expanded`.
-- Diseño adaptable en escritorio, tablet y móvil.
-- Respeta `prefers-reduced-motion`.
+- Diseño responsive para escritorio, tablet y móvil.
+- Navegación entre las distintas secciones de la página.
+- Sección principal con llamadas a la acción.
+- Tarjetas con los servicios del taller.
+- Presentación del negocio e información de contacto.
+- Formulario que prepara una solicitud de atención para WhatsApp.
+- Despliegue público mediante Netlify.
+
+## 📁 Estructura del proyecto
+
+```text
+autofix-santiago/
+├── index.html
+├── styles.css
+├── script.js
+├── assets/
+│   └── logo-autofix.jpg
+└── README.md
+```
+
+## 🚀 Ejecución local
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/CristianP7/AutoFix-Santiago.git
+   ```
+
+2. Entra en la carpeta del proyecto:
+
+   ```bash
+   cd autofix-santiago
+   ```
+
+3. Abre `index.html` en tu navegador o utiliza la extensión Live Server de VS Code.
+
+## 📚 Aprendizajes
+
+Este proyecto me permitió practicar la construcción de una landing page desde cero, organizar HTML, CSS y JavaScript en archivos separados, trabajar con diseño responsive y publicar una web mediante un flujo de trabajo con GitHub y Netlify.
+
+## ⚠️ Aviso
+
+AutoFix Santiago es un proyecto ficticio creado con fines educativos y de portafolio. Los datos comerciales y de contacto son ilustrativos; el formulario no confirma reservas automáticamente.
+
+## 👨‍💻 Autor
+
+Proyecto personal de aprendizaje frontend.
