@@ -33,6 +33,8 @@ document.querySelectorAll("[data-service]").forEach((link) => {
   link.addEventListener("click", () => {
     const serviceSelect = document.querySelector('select[name="servicio"]');
     const serviceName = link.dataset.service;
+    const message = document.querySelector("#service-message");
+    message.textContent = `Has seleccionado: ${serviceName}`;
     if ([...serviceSelect.options].some((option) => option.value === serviceName || option.text === serviceName)) {
       serviceSelect.value = serviceName;
     }
@@ -73,3 +75,6 @@ document.querySelector("#booking-form").addEventListener("submit", (event) => {
 });
 
 document.querySelector("#year").textContent = new Date().getFullYear();
+
+const mensaje = document.querySelector("#mensaje");
+mensaje.textContent = "¡Gracias por visitar AutoFix!";
